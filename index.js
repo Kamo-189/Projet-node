@@ -11,7 +11,11 @@ rl.question("Quel est votre nom ? ", function(name) {
         rl.close();
     });
 });
-rl.on("close", function() {
-    console.log("\nAu revoir !");
+
+
+rl.on("close", function() 
+{
+    console.log("\n End !");
+
     process.exit(0);
 });
